@@ -32,7 +32,7 @@ class MainActivity : ComponentActivity() {
                     val displayFeatures = calculateDisplayFeatures(activity = this)
 
                     MyScreen(
-                        windowSizeClass = windowSizeClass.widthSizeClass,
+                        windowSizeClass = windowSizeClass,
                         displayFeatures = displayFeatures
                     )
                 }
